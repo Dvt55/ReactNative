@@ -54,7 +54,28 @@ const styles = StyleSheet.create({
         fontWeight: "bold",
         paddingLeft: 20,
     },
+    existImcResult: {
+        width: "100%",
+        height: "50%"
+    },
+    centeredFlatListContainer: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    TextList: {
+        fontSize: 20,
+        color: "red",
+        width: "100%",
+        height: 50,
 
+    },
+    ResultList: {
+        fontSize: 28,
+        color: "red",
+        width: "100%",
+        height: 50,
+    }
 });
 
 export default styles
